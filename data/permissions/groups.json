@@ -1,0 +1,176 @@
+{
+    "Groups": {
+        "Default": {
+            "isDefault": true,
+            "powerLevel": 10,
+            "permissions": [
+                
+            ],
+            "inherits": [],
+            "prefix": "^{gangColor}• ^7{name} ^r^0» {msg}"
+        },
+        "Active": {
+            "powerLevel": 10,
+            "permissions": [],
+            "inherits": ["Default"],
+            "prefix":"^{gangColor}• ^3{groupName} ^7{name} ^r^0» {msg}"
+        },
+        "Elite": {
+            "powerLevel": 10,
+            "permissions": [],
+            "inherits": ["Default"],
+            "prefix":"^{gangColor}• ^3{groupName} ^7{name} ^r^0» {msg}"
+        },
+        "Legend": {
+            "powerLevel": 10,
+            "permissions": [],
+            "inherits": ["Default"],
+            "prefix":"^{gangColor}• ^3{groupName} ^7{name} ^r^0» {msg}"
+        },
+        "Winner": {
+            "powerLevel": 10,
+            "permissions": [],
+            "inherits": ["Default"],
+            "prefix":"^{gangColor}• ^3{groupName} ^7{name} ^r^0» {msg}"
+        },
+        "Immortal": {
+            "powerLevel": 10,
+            "permissions": [],
+            "inherits": ["Default"],
+            "prefix":"^{gangColor}• ^3{groupName} ^7{name} ^r^0» {msg}"
+        },
+        "Warlord": {
+            "powerLevel": 10,
+            "permissions": [],
+            "inherits": ["Default"],
+            "prefix":"^{gangColor}• ^3{groupName} ^7{name} ^r^0» {msg}"
+        },
+        "Donator": {
+            "powerLevel": 9,
+            "permissions": [],
+            "inherits": ["Default"],
+            "prefix":"^{gangColor}• ^9{groupName} ^7^*{name} ^r^0» ^3{msg}"
+        },
+        "Sponsor": {
+            "powerLevel": 9,
+            "permissions": [],
+            "inherits": ["Default"],
+            "prefix":"^{gangColor}• ^9{groupName} ^7^*{name} ^r^0» ^3{msg}"
+        },
+        "Supporter": {
+            "powerLevel": 9,
+            "permissions": [],
+            "inherits": ["Default"],
+            "prefix":"^{gangColor}• ^9{groupName} ^7^*{name} ^r^0» ^3{msg}"
+        },
+        "VIP": {
+            "powerLevel": 8,
+            "permissions": [
+                "essentials.models.pickspecial"
+            ],
+            "inherits": ["Default"],
+            "prefix":"^{gangColor}• ^6{name} ^r^0» {msg}"
+        },
+        "sVIP": {
+            "powerLevel": 8,
+            "permissions": [],
+            "inherits": ["Default", "VIP"],
+            "prefix":"^{gangColor}• ^3{groupName} ^7^*{name} ^r^0» {msg}"
+        },
+        "sVIP+": {
+            "powerLevel": 8,
+            "permissions": [],
+            "inherits": ["Default", "VIP"],
+            "prefix":"^{gangColor}• ^2{groupName} ^7^*{name} ^r^0» ^2{msg}"
+        },
+        "Artist": {
+            "powerLevel": 7,
+            "permissions": [],
+            "inherits": ["Default"],
+            "prefix":"^{gangColor}• ^5{groupName} ^7{name} ^r^0» {msg}"
+        },
+        "Helper": {
+            "powerLevel": 7,
+            "permissions": [
+                "essentials.command.kick",
+                "essentials.command.mute",
+                "essentials.command.clearchat",
+                "essentials.command.stopchat"
+            ],
+            "inherits": ["Default"],
+            "prefix":"^{gangColor}• ^5{groupName} ^7{name} ^r^0» {msg}"
+        },
+        "Lead Dev": {
+            "powerLevel": 7,
+            "permissions": [
+                "essentials.chat.unlimited"
+            ],
+            "inherits": ["Default", "Helper"],
+            "prefix":"^{gangColor}• ^5{groupName} ^7{name} ^r^0» {msg}"
+        },
+        "Dev": {
+            "powerLevel": 7,
+            "permissions": [
+
+            ],
+            "inherits": ["Default"],
+            "prefix":"^{gangColor}• ^5{groupName} ^7{name} ^r^0» {msg}"
+        },
+        "HeadMod": {
+            "powerLevel": 5,
+            "permissions": [
+                "essentials.command.*",
+                "essentials.chat.unlimited",
+                "essentials.models.pickspecial"
+            ],
+            "inherits": ["Default", "Mod"],
+            "prefix":"^{gangColor}• ^4{groupName} ^7{name} ^r^0» {msg}"
+        },
+        "Mod": {
+            "powerLevel": 6,
+            "permissions": [
+                "essentials.command.kick",
+                "essentials.command.clearchat",
+                "essentials.command.mute"
+            ],
+            "inherits": ["Default"],
+            "prefix":"^{gangColor}• ^4{groupName} ^7{name} ^r^0» {msg}"
+        },
+        "HeadAdmin": {
+            "powerLevel": 3,
+            "permissions": [
+                "essentials.command.*",
+                "essentials.chat.unlimited",
+                "essentials.models.pickspecial"
+            ],
+            "inherits": ["Default"],
+            "prefix":"^{gangColor}• ^1{groupName} ^7^*{name} ^r^0» ^5{msg}"
+        },
+        "Admin": {
+            "powerLevel": 4,
+            "permissions": [],
+            "inherits": ["Default", "HeadAdmin"],
+            "prefix": "^{gangColor}• ^1{groupName} ^7^*{name} ^r^0» ^5{msg}"
+        },
+        "Co-owner": {
+            "powerLevel": 2,
+            "permissions": [
+                "essentials.command.*",
+                "essentials.chat.unlimited",
+                "essentials.models.pickspecial"
+            ],
+            "inherits": ["Default", "Owner"],
+            "prefix": "^{gangColor}• ^8{groupName} ^7^*{name} ^r^0» ^3{msg}"
+        },
+        "Owner": {
+            "powerLevel": 1,
+            "permissions": [
+                "essentials.command.*",
+                "essentials.chat.unlimited",
+                "essentials.models.pickspecial"
+            ],
+            "inherits": ["Default"],
+            "prefix": "^{gangColor}• ^8{groupName} ^7^*{name} ^r^0» ^3{msg}"
+        }
+    }
+}
